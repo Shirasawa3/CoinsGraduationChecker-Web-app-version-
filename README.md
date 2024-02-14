@@ -1,24 +1,13 @@
-# README
+# 卒業要件確認webアプリ（筑波大学coins22生用）
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### アプリの概要
+このプログラムでは筑波大学coins22生が現在卒業要件をどれくらい満たしているかを確認することができます。
+以前同様のアプリをpythonで作成したことがあるがコマンドライン上でしか実行できず、使い勝手が悪かったためRuby on Railsを用いてweb上で使えるようにしてみました。
 
-Things you may want to cover:
+### 使用方法
+1. twinsより成績のcsvファイル(Shft-JIS)を取得。
+2. ファイルを選択し「実行」をクリック。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 実行結果
+【卒業要件】の欄に卒業に必要な単位のうち、取得済みの単位数が表示されます。
+【詳細】の欄に科目ごとの詳細が表示され、どの科目がどのくらい足りていないかが一目でわかるようになっています。
