@@ -1,0 +1,15 @@
+<div class="top-main">
+  <div class="top-message">
+    <h2>卒業要件チェッカー for Coins22</h2>
+    <h3>これまでに取得した、卒業に必要な単位を確認することができます！</h3>
+  </div>
+
+  <div class="form">
+    <p>twinsからダウンロードした成績のcsvファイル(Shift_JIS)を選択してください</p>
+    <%= form_tag("/upload", {multipart: true}) do %>
+      <input type="file" name="csv" accept=".csv,.xlsx,.xls">
+      <br>
+        <button type="submit">実行</button>
+    <% end %>
+  </div>
+</div>
