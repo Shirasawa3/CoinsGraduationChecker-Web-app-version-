@@ -8,7 +8,7 @@
 1. twinsより成績のcsvファイル(Shft-JIS)を取得。
 2. ファイルを選択し「実行」をクリック。
 
-<img width="923" alt="スクリーンショット 2024-02-14 185129" src="https://github.com/Shirasawa3/CoinsGraduationChecker-Web-app-version-/assets/156413299/037e4610-ecb7-477b-9934-63ecce2bd94c">
+<img width="923" alt="スクリーンショット 2024-02-14 185129" src="https://github.com/Shirasawa3/CoinsGraduationChecker-Web-app-version-/assets/156413299/037e4610-ecb7-477b-9934-63ecce2bd94c">  
 
 ### 実行結果
 【卒業要件】の欄に卒業に必要な単位のうち、取得済みの単位数が表示されます。  
